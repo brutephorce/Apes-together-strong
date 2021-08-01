@@ -4,3 +4,16 @@ Also lets user to search similar question previously posted, which employs Djang
 
 # Homepage
 ![alt text](https://github.com/brutephorce/Apes-together-strong/blob/main/App%20imgs/Screenshot%202021-08-01%20113249.png?raw=true)
+
+# New User register page
+![alt text](https://github.com/brutephorce/Apes-together-strong/blob/main/App%20imgs/Screenshot%202021-08-01%20113454.png?raw=true)
+
+# Response page including comments and reply threads
+![alt text](https://github.com/brutephorce/Apes-together-strong/blob/main/App%20imgs/Screenshot%202021-08-01%20113607.png?raw=true)
+
+
+![alt text](https://github.com/brutephorce/Apes-together-strong/blob/main/App%20imgs/Screenshot%202021-08-01%20113643.png?raw=true)
+
+
+![alt text](https://github.com/brutephorce/Apes-together-strong/blob/main/App%20imgs/Screenshot%202021-08-01%20113715.png?raw=true)
+
