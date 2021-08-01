@@ -1,0 +1,23 @@
+{% extends 'layouts/page.html' %}
+
+{% block content %}
+<div class="page">
+<h1 class="title">Apes Together Strong!!</h1>
+
+{% for question in questions %}
+<div class="question-list-item">
+  <a href="{% url 'question' question.id %}">
+    <p class="question-list-item-title">
+      {{question.title}}
+    </p>
+    <p class="question-list-item-author">
+      asked by: {{question.author.username}}
+    </p>
+    <p class="question-list-item-ans">
+      {{question.body}}
+    </p>
+  </a>
+</div>
+{% endfor %}
+</div>
+{% endblock %}

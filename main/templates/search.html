@@ -1,0 +1,31 @@
+{% extends 'layouts/page.html' %}
+
+{% block content %}
+<div class="page">
+<h1 class="title">Search Results...</h1>
+
+
+
+{% if questions|length == 0 %}
+<p style="color:rgb(255, 255, 255);" > <b>No result found</b> : Your search "<b>{{query}}</b>" did not match any previously mentioned query... </p>
+
+<p style="color:rgb(255, 255, 255);" >Try other related keywords or check spelling of the mentioned query or post your question..</p>
+{% endif %}
+
+{% for question in questions %}
+<div class="question-list-item">
+  <a href="{% url 'question' question.id %}">
+    <p class="question-list-item-title">
+      {{question.title}}
+    </p>
+    <p class="question-list-item-author">
+      asked by: {{question.author.username}}
+    </p>
+    <p class="question-list-item-ans">
+      {{question.body}}
+    </p>
+  </a>
+</div>
+{% endfor %}
+</div>
+{% endblock %}
